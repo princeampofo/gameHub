@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  background-color: #242943;
+  overflow: hidden;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -41,4 +46,21 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.games {
+  max-width: 1024px;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.gameProps {
+  width: 20rem;
+  height: 15rem;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
