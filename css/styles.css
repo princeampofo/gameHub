@@ -52,7 +52,7 @@
 .games {
   max-width: 1024px;
   display: grid;
-  height: auto;
+  height: 90vh;
   grid-template-columns: auto auto auto;
   margin: auto;
   row-gap: 20px;
@@ -64,6 +64,10 @@
 }
 
 .gameProps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 17rem;
   margin: auto;
   height: 15rem;
